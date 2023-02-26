@@ -421,6 +421,9 @@ class Account:
 
         return tx.return_value
 
+    def sign(self, message: bytes) -> bytes:
+        return self._chain.chain_interface.sign(str(self._address), message)
+
 
 class RevertToSnapshotFailedError(Exception):
     pass

@@ -246,6 +246,9 @@ class ChainInterfaceAbc(ABC):
     def mine(self, timestamp: Optional[int]) -> None:
         self._communicator.evm_mine(timestamp)
 
+    def sign(self, address: str, data: bytes) -> bytes:
+        return self._communicator.eth_sign(address, data)
+
     @abstractmethod
     def get_automine(self) -> bool:
         ...
