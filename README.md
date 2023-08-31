@@ -123,6 +123,13 @@ All LSP server features can be found in the [documentation](https://ackeeblockch
 
 This project is licensed under the [ISC license](https://github.com/Ackee-Blockchain/woke/blob/main/LICENSE).
 
+## Community
+
+Check out the following groups:
+
+* _#woke_ on [Ethereum Python Community](https://discord.gg/Adb8Yzqv4P) Discord
+* [Woke: Unofficial Group](https://t.me/wokegroup) on Telegram
+
 ## Partners
 
 RockawayX             |  Coinbase
